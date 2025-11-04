@@ -21,7 +21,7 @@ Feature: My Account With Parameters
     Then  The user should be able to edit their Full Name text
 
 
-  @Student
+  @Student @WIP
   Scenario: Add new job as Student
     Given The user is on the login page
     When  The user enters Student login "johndoe@gmail.com" and "Hello12345!"
