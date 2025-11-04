@@ -9,6 +9,7 @@ Feature: My Account Menu
     When  The user clicks the edit profile button
     Then  The user should be able to edit their Full Name text
 
+
   Scenario: Add new job as Student
     Given The user is on the login page
     When  The user enters Student username and password
