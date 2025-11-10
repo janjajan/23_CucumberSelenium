@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)                                 //use cucumber to run feature files, integrate with junit
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",                     // creates json file, used to make reports - json = data storage language
         "html:target/default-html-reports.html",                    // creates HTML report

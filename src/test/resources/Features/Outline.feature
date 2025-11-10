@@ -9,7 +9,7 @@ Feature: Account Test With Scenario Outline
     When   The user clicks the "edit profile" tab
     Then   The user should be able to edit their "Full Name" text as "Janine"
 
-@WIP
+
   Scenario Outline: Check Account Name Text
 
     Given  The user is on the login page

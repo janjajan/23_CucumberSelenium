@@ -1,6 +1,6 @@
 Feature: Negative Login Test
 
-  @WIP
+
   Scenario Outline: Negative Login Test
 
     Given The user is on the login page
